@@ -1,0 +1,32 @@
+{
+  "name": "hello-demo-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/error-middleware/app",
+    "start:middleware": "nodemon src/middleware/app",
+    "start:expressapi": "nodemon src/express-api-app",
+    "start:expressroute": "nodemon src/express-route-app",
+    "start:expressapp": "nodemon src/express-app",
+    "start:app": "nodemon src/app",
+    "start:node": "DEBUG=* nodemon src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailyaa/node-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailyaa/node-demo/issues"
+  },
+  "homepage": "https://github.com/sailyaa/node-demo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
